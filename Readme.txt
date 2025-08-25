@@ -16,8 +16,7 @@ pip install -r requirements.txt
 
 5. Add environment variables
 Create a file called .env in the root folder with the following content:
-# Path to your GCP service account key JSON file
-SERVICE_ACCOUNT_KEY_PATH=C:\Users\user\Downloads\shared_jason.json
+add Path to your GCP service account key JSON file to .env
 
 # Cloud Function URL (update this with your actual deployed URL)
 CLOUD_FUNCTION_URL=https://<your-cloud-function-url>
